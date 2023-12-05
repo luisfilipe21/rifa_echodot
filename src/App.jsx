@@ -1,7 +1,7 @@
 
 import { Card } from "./components/Card"
 import { Header } from "./components/Header"
-import "./styles/index.scss"
+import "./style/index.scss"
 
 function App() {
   
