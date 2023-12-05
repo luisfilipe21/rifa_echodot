@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Names } from "./Names";
 import style from "./style.module.scss";
-import { FaCheck } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa";
 
 export const Card = () => {
 
