@@ -74,27 +74,26 @@ export const Card = () => {
                         <li>
                             <FaCheck />
                             <p>
-
                                 Disponível na cor Preta ou Branca (você escolhe a cor do seu prêmio).
                             </p>
                         </li>
-
                     </ul>
 
                     <h2>Como participar </h2>
-                    
                     <p>
-                        Para concorrer, basta comprar um bilhete da rifa, por apenas R$ 20,00 (vinte reais), escolher o nome na cartela e lançar a sorte. 🤞🍀
+                        Para concorrer, basta comprar um bilhete da rifa, por apenas R$ 20,00 (vinte reais), escolher o nome na cartela, fazer o pix e lançar a sorte. 🤞🍀
                     </p>
                     <p>
-                        O sorteio será realizado no dia 31 de dezembro (de 2023, né), às 20h, pelo  <a href="https://chat.whatsapp.com/HjatC6gXBxOCVRhgPVpFNI" target="_blank">Grupo de WhatsApp.</a>
+                        O sorteio será realizado no dia 31 de dezembro (de 2023, né), às 20h, pelo nosso <a href="https://chat.whatsapp.com/HjatC6gXBxOCVRhgPVpFNI" target="_blank">Grupo de WhatsApp.</a>
                     </p>
+
+                    <p>Escolha um nome disponível e envie, junto com o comprovante do Pix, para (61) 98207-2433 para garantir sua participação.</p>
 
                 </div>
 
                 <Names isOpen={isOpen} />
 
-                <button onClick={openTable}>Participar</button>
+                <button onClick={openTable}>Cartela de nomes</button>
             </div>
         </section>
     )

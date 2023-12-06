@@ -11,10 +11,13 @@
     margin: 1rem;
 
 
+
     li {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        position: relative;
 
         width: 18%;
         padding: 10px 0;
@@ -29,12 +32,49 @@
         font-weight: 600;
         color: #FFF;
 
+        span {
+            position: absolute;
+            font-size: 7px;
+            color: white;
+            top: 4px;
+            left: 7px;
+        }
+
         &:hover {
             transition: 1s;
             background-color: #F7A623;
-            border: #F7A623;
+            border: 2px solid #F7A623;
             color: #023576;
-            cursor:pointer;
+            cursor: pointer;
+
+            span {
+                color: #023576;
+                transition: 1s;
+            }
+        }
+
+    }
+
+    .vendido {
+        color: #bfbfbf;
+        background-color: #4c5958;
+        border: #bfbfbf;
+
+        &:hover {
+            transition: 1s;
+            background-color: #4c5958;
+            border: 2px solid #4c5958;
+            color: #bfbfbf;
+            cursor: no-drop;
+        }
+
+        span {
+            position: absolute;
+            font-size: 7px;
+            color: #bfbfbf;
+            top: 3px;
+            left: 7px;
         }
     }
+
 }

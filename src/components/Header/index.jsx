@@ -60,15 +60,15 @@ export const Header = () => {
             
             <div className={style.watch}>
                 <div className={style.watchBox}>
-                    <p>{days}</p>
-                    <span>Dais</span>
+                    <p>{days} </p>
+                    <span>Dias</span>
                 </div>
                 <div className={style.watchBox}>
-                    <p>{hours}</p>
+                    <p>{hours} </p>
                     <span>Horas</span>
                 </div>
                 <div className={style.watchBox}>
-                    <p>{minutes}</p>
+                    <p>{minutes} </p>
                     <span>Minutos</span>
                 </div>
                 <div className={style.watchBox}>

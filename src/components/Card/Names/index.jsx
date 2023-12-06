@@ -6,56 +6,56 @@ export const Names = ({ isOpen }) => {
         
             {isOpen ? <ul>
                 <div className={style.grid}>
-                    <li id="1">Amanda</li>
-                    <li id="2">Bruno</li>
-                    <li id="3">Cássio</li>
-                    <li id="4">Davidson</li>
-                    <li id="5">Eustáquio</li>
-                    <li id="6">Felipe</li>
-                    <li id="7">Gustavo</li>
-                    <li id="8">Heitor</li>
-                    <li id="9">Ícaro</li>
-                    <li id="10">Jonas</li>
-                    <li id="11">Luis</li>
-                    <li id="12">Marcos</li>
-                    <li id="13">Natália</li>
-                    <li id="14">Otávio</li>
-                    <li id="15">Pedro</li>
-                    <li id="16">Theo</li>
-                    <li id="17">Rosana</li>
-                    <li id="18">Stéphany</li>
-                    <li id="19">Tiago</li>
-                    <li id="20">Ulisses</li>
-                    <li id="21">Victor</li>
-                    <li id="22">Wadson</li>
-                    <li id="23">Xande</li>
-                    <li id="24">Bernardo</li>
-                    <li id="25">Carlos</li>
-                    <li id="26">Alexandre</li>
-                    <li id="27">Lucas</li>
-                    <li id="28">Fernanda</li>
-                    <li id="29">Abílio</li>
-                    <li id="30">Erasmo</li>
-                    <li id="31">Igor</li>
-                    <li id="32">Marina</li>
-                    <li id="33">Éric</li>
-                    <li id="34">Marcelo</li>
-                    <li id="35">Carlos</li>
-                    <li id="36">Francisco</li>
-                    <li id="37">Laura</li>
-                    <li id="38">Danusa</li>
-                    <li id="39">Irís</li>
-                    <li id="40">Denise</li>
-                    <li id="41">Sara</li>
-                    <li id="42">Júlio</li>
-                    <li id="43">Eduardo</li>
-                    <li id="44">Maíra</li>
-                    <li id="42">Melissa</li>
-                    <li id="46">Alana</li>
-                    <li id="47">Ana</li>
-                    <li id="48">Desireé</li>
-                    <li id="49">Diego</li>
-                    <li id="50">Priscila</li>
+                    <li id="1" >Amanda<span>1</span></li>
+                    <li id="2" >Bruno<span>2</span></li>
+                    <li id="3" >Cássio<span>3</span></li>
+                    <li id="4" >Davidson<span>4</span></li>
+                    <li id="5" >Eustáquio<span>5</span></li>
+                    <li id="6" >Felipe<span>6</span></li>
+                    <li id="7" >Gustavo<span>7</span></li>
+                    <li id="8" >Heitor<span>8</span></li>
+                    <li id="9" className={style.vendido}> <span>9</span>Ícaro</li>
+                    <li id="10" ><span>10</span>Jonas</li>
+                    <li id="11" ><span>11</span>Luis</li>
+                    <li id="12" ><span>12</span>Marcos</li>
+                    <li id="13" ><span>13</span>Natália</li>
+                    <li id="14" ><span>14</span>Otávio</li>
+                    <li id="15" className={style.vendido}><span>15</span>Pedro</li>
+                    <li id="16" ><span>16</span>Theo</li>
+                    <li id="17" ><span>17</span>Rosana</li>
+                    <li id="18" className={style.vendido} ><span>18</span>Stéphany</li>
+                    <li id="19" className={style.vendido}><span>19</span>Tiago</li>
+                    <li id="20" ><span>20</span>Ulisses</li>
+                    <li id="21" ><span>21</span>Victor</li>
+                    <li id="22" ><span>22</span>Wadson</li>
+                    <li id="23" ><span>23</span>Aline</li>
+                    <li id="24" ><span>24</span>Bernardo</li>
+                    <li id="25" ><span>25</span>Rosulina</li>
+                    <li id="26" ><span>26</span>Alexandre</li>
+                    <li id="27" ><span>27</span>Lucas</li>
+                    <li id="28" ><span>28</span>Fernanda</li>
+                    <li id="29" ><span>29</span>Abílio</li>
+                    <li id="30" className={style.vendido}><span>30</span>Erasmo</li>
+                    <li id="31" className={style.vendido}><span>31</span>André</li>
+                    <li id="32" ><span>32</span>Marina</li>
+                    <li id="33" ><span>33</span>Éric</li>
+                    <li id="34" ><span>34</span>Marcelo</li>
+                    <li id="35" className={style.vendido}><span>35</span>Carlos</li>
+                    <li id="36" ><span>36</span>Luciano</li>
+                    <li id="37" ><span>37</span>Laura</li>
+                    <li id="38" className={style.vendido}><span>38</span>Danusa</li>
+                    <li id="39" ><span>39</span>Íris</li>
+                    <li id="40" ><span>40</span>Denise</li>
+                    <li id="41" ><span>41</span>Sara</li>
+                    <li id="42" ><span>42</span>Júlio</li>
+                    <li id="43" ><span>43</span>Eduardo</li>
+                    <li id="44" className={style.vendido}><span>44</span>Maíra</li>
+                    <li id="42" ><span>45</span>Melissa</li>
+                    <li id="46" className={style.vendido}><span>46</span>Alana</li>
+                    <li id="47" className={style.vendido}><span>47</span>Ana</li>
+                    <li id="48" ><span>48</span>Desireé</li>
+                    <li id="49" ><span>49</span>Diego</li>
+                    <li id="50" className={style.vendido}><span>50</span>Priscila</li>
                 </div>
             </ul>
                 : null}
