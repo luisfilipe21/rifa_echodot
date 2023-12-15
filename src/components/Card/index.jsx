@@ -60,7 +60,6 @@ export const Card = () => {
                         <li>
                             <FaCheck />
                             <p>
-
                                 Dimensões: 100 mm x 100 mm x 89 mm;
                             </p>
                         </li>
@@ -87,7 +86,7 @@ export const Card = () => {
                         O sorteio será realizado no dia 31 de dezembro (de 2023, né), às 20h, pelo nosso <a href="https://chat.whatsapp.com/HjatC6gXBxOCVRhgPVpFNI" target="_blank">Grupo de WhatsApp.</a>
                     </p>
 
-                    <p>Escolha um nome disponível e envie, junto com o comprovante do Pix, para (61) 98207-2433 para garantir sua participação.</p>
+                    <p>Escolha um nome disponível, faça o pix para o CPF 05115538113 e envie o comprovante para (61) 98207-2433 para garantir sua participação.</p>
 
                 </div>
 
