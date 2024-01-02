@@ -77,4 +77,21 @@
         }
     }
 
+    .lucky {
+        transition: 1s;
+        background-color: #F7A623;
+        border: 2px solid #F7A623;
+        color: #bfbfbf;
+        cursor: pointer;
+    }
+
+}
+
+.sortear {
+    width: 95%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
 }
