@@ -72,11 +72,6 @@ export const Names = ({ isOpen }) => {
                     <li id="50" className={style.vendido} ><span>50</span>Priscila</li>
                 </div>
 
-                {/* {
-                    noDisplay &&
-                    <button className={style.sortear} onClick={handleClick}>Sortear</button>
-                } */}
-
             </ul>
                 : null}
 
